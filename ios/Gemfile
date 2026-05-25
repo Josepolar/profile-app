@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+# Optional: bundle exec pod (see install_cocoapods_no_sudo.sh — Homebrew is easier)
+gem 'cocoapods', '1.10.2'
+gem 'json', '2.3.1'
+gem 'ffi', '1.14.2'
