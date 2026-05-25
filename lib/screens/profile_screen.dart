@@ -205,7 +205,7 @@ class _ProfileInfoCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(AppRadius.lg),
         boxShadow: [
           BoxShadow(
-            color: CupertinoColors.black.withValues(alpha: 0.05),
+            color: CupertinoColors.black.withOpacity(0.05),
             blurRadius: 12,
             offset: const Offset(0, 2),
           ),

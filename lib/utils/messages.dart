@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart' show Material, MaterialType;
 import 'package:profile_app/utils/constants.dart';
 
 void showErrorMessage(BuildContext context, String message) {
@@ -57,7 +58,7 @@ class _MessageBannerState extends State<_MessageBanner> {
           borderRadius: BorderRadius.circular(AppRadius.md),
           boxShadow: [
             BoxShadow(
-              color: CupertinoColors.black.withValues(alpha: 0.15),
+              color: CupertinoColors.black.withOpacity(0.15),
               blurRadius: 12,
               offset: const Offset(0, 4),
             ),

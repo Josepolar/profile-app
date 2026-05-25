@@ -33,10 +33,10 @@ class ProfileAvatar extends StatelessWidget {
             height: size,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: AppColors.divider.withValues(alpha: 0.3),
+              color: AppColors.divider.withOpacity( 0.3),
               boxShadow: [
                 BoxShadow(
-                  color: CupertinoColors.black.withValues(alpha: 0.08),
+                  color: CupertinoColors.black.withOpacity( 0.08),
                   blurRadius: 16,
                   offset: const Offset(0, 4),
                 ),
@@ -93,7 +93,7 @@ class ProfileAvatar extends StatelessWidget {
 
   Widget _placeholderIcon() {
     return Container(
-      color: AppColors.divider.withValues(alpha: 0.2),
+      color: AppColors.divider.withOpacity( 0.2),
       child: Icon(
         CupertinoIcons.person_fill,
         size: size * 0.45,

@@ -50,7 +50,7 @@ class CustomTextField extends StatelessWidget {
             borderRadius: BorderRadius.circular(AppRadius.md),
             boxShadow: [
               BoxShadow(
-                color: CupertinoColors.black.withValues(alpha: 0.04),
+                color: CupertinoColors.black.withOpacity(0.04),
                 blurRadius: 8,
                 offset: const Offset(0, 2),
               ),

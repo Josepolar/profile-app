@@ -23,7 +23,7 @@ class CustomButton extends StatelessWidget {
     final Color textColor;
 
     if (isDestructive) {
-      backgroundColor = AppColors.error.withValues(alpha: 0.12);
+      backgroundColor = AppColors.error.withOpacity( 0.12);
       textColor = AppColors.error;
     } else if (isSecondary) {
       backgroundColor = AppColors.surface;
@@ -47,7 +47,7 @@ class CustomButton extends StatelessWidget {
                 ? null
                 : [
                     BoxShadow(
-                      color: AppColors.primary.withValues(alpha: 0.35),
+                      color: AppColors.primary.withOpacity( 0.35),
                       blurRadius: 12,
                       offset: const Offset(0, 4),
                     ),
